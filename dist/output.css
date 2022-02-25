@@ -921,16 +921,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-bottom-right-radius: 0.5rem;
 }
 
-.border-4 {
-  border-width: 4px;
-}
-
 .border-2 {
   border-width: 2px;
-}
-
-.border {
-  border-width: 1px;
 }
 
 .border-b {
@@ -1450,10 +1442,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .dark .dark\:border-opacity-20 {
   --tw-border-opacity: 0.2;
-}
-
-.dark .dark\:border-opacity-10 {
-  --tw-border-opacity: 0.1;
 }
 
 .dark .dark\:bg-slate-900 {
