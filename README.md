@@ -8,6 +8,7 @@ https://github.com/tailwindlabs/tailwindcss.com (Mit License)
 ```
 // install tailwindcss (https://tailwindcss.com/docs/installation)
 npm install -D tailwindcss
+npm install -D @tailwindcss/line-clamp
 // start live server (vs code)
 npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 
