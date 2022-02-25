@@ -522,6 +522,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   pointer-events: auto;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .fixed {
   position: fixed;
 }
@@ -601,6 +605,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .-m-4 {
   margin: -1rem;
+}
+
+.-m-2 {
+  margin: -0.5rem;
 }
 
 .mx-auto {
@@ -709,6 +717,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
 }
 
 .block {
@@ -843,6 +855,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex: none;
 }
 
+.border-collapse {
+  border-collapse: collapse;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -921,6 +937,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 2px;
 }
 
+.border {
+  border-width: 1px;
+}
+
+.border-x-2 {
+  border-left-width: 2px;
+  border-right-width: 2px;
+}
+
 .border-b {
   border-bottom-width: 1px;
 }
@@ -931,6 +956,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border-t {
   border-top-width: 1px;
+}
+
+.border-r-2 {
+  border-right-width: 2px;
 }
 
 .border-slate-900\/10 {
@@ -960,8 +989,44 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(243 244 246 / var(--tw-border-opacity));
 }
 
+.border-gray-900 {
+  --tw-border-opacity: 1;
+  border-color: rgb(17 24 39 / var(--tw-border-opacity));
+}
+
+.border-gray-50 {
+  --tw-border-opacity: 1;
+  border-color: rgb(249 250 251 / var(--tw-border-opacity));
+}
+
+.border-x-gray-50 {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(249 250 251 / var(--tw-border-opacity));
+  border-right-color: rgb(249 250 251 / var(--tw-border-opacity));
+}
+
+.border-x-sky-100 {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(224 242 254 / var(--tw-border-opacity));
+  border-right-color: rgb(224 242 254 / var(--tw-border-opacity));
+}
+
+.border-x-sky-900 {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(12 74 110 / var(--tw-border-opacity));
+  border-right-color: rgb(12 74 110 / var(--tw-border-opacity));
+}
+
 .border-opacity-90 {
   --tw-border-opacity: 0.9;
+}
+
+.border-opacity-10 {
+  --tw-border-opacity: 0.1;
+}
+
+.border-opacity-80 {
+  --tw-border-opacity: 0.8;
 }
 
 .bg-white {
@@ -1281,6 +1346,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   -webkit-line-clamp: 3;
 }
 
+.line-clamp-4 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
 .hover\:border-slate-400:hover {
   --tw-border-opacity: 1;
   border-color: rgb(148 163 184 / var(--tw-border-opacity));
@@ -1408,6 +1480,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+.dark .dark\:border-4 {
+  border-width: 4px;
+}
+
+.dark .dark\:border-0 {
+  border-width: 0px;
+}
+
+.dark .dark\:border {
+  border-width: 1px;
+}
+
+.dark .dark\:border-2 {
+  border-width: 2px;
+}
+
 .dark .dark\:border-slate-50\/\[0\.06\] {
   border-color: rgb(248 250 252 / 0.06);
 }
@@ -1423,6 +1511,36 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .dark .dark\:border-slate-200\/5 {
   border-color: rgb(226 232 240 / 0.05);
+}
+
+.dark .dark\:border-x-transparent {
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+.dark .dark\:border-x-slate-50 {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(248 250 252 / var(--tw-border-opacity));
+  border-right-color: rgb(248 250 252 / var(--tw-border-opacity));
+}
+
+.dark .dark\:border-x-inherit {
+  border-left-color: inherit;
+  border-right-color: inherit;
+}
+
+.dark .dark\:border-x-white {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(255 255 255 / var(--tw-border-opacity));
+  border-right-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.dark .dark\:border-opacity-10 {
+  --tw-border-opacity: 0.1;
+}
+
+.dark .dark\:border-opacity-20 {
+  --tw-border-opacity: 0.2;
 }
 
 .dark .dark\:bg-slate-900 {
