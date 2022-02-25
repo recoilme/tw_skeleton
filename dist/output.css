@@ -719,16 +719,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.5rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .block {
   display: block;
 }
 
 .inline-block {
   display: inline-block;
-}
-
-.inline {
-  display: inline;
 }
 
 .flex {
@@ -1458,11 +1458,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(226 232 240 / 0.05);
 }
 
-.dark .dark\:border-slate-700 {
-  --tw-border-opacity: 1;
-  border-color: rgb(51 65 85 / var(--tw-border-opacity));
-}
-
 .dark .dark\:bg-slate-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
@@ -1490,11 +1485,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(15 23 42 / 0.8);
 }
 
-.dark .dark\:bg-slate-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
-}
-
 .dark .dark\:from-slate-900 {
   --tw-gradient-from: #0f172a;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(15 23 42 / 0));
@@ -1520,20 +1510,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   fill: #475569;
 }
 
-.dark .dark\:fill-slate-300 {
-  fill: #cbd5e1;
-}
-
 .dark .dark\:stroke-slate-500 {
   stroke: #64748b;
 }
 
 .dark .dark\:stroke-slate-400 {
   stroke: #94a3b8;
-}
-
-.dark .dark\:stroke-slate-300 {
-  stroke: #cbd5e1;
 }
 
 .dark .dark\:text-slate-400 {
