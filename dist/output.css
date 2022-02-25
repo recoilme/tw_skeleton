@@ -925,6 +925,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 2px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-b {
   border-bottom-width: 1px;
 }
@@ -1421,6 +1425,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .dark .dark\:border-2 {
   border-width: 2px;
+}
+
+.dark .dark\:border {
+  border-width: 1px;
 }
 
 .dark .dark\:border-slate-50\/\[0\.06\] {
