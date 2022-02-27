@@ -937,18 +937,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 2px;
 }
 
-.border-0 {
-  border-width: 0px;
-}
-
 .border-x-2 {
   border-left-width: 2px;
   border-right-width: 2px;
-}
-
-.border-y-2 {
-  border-top-width: 2px;
-  border-bottom-width: 2px;
 }
 
 .border-b {
@@ -959,32 +950,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-left-width: 1px;
 }
 
-.border-t {
-  border-top-width: 1px;
-}
-
-.border-l-0 {
-  border-left-width: 0px;
-}
-
-.border-r-2 {
-  border-right-width: 2px;
-}
-
-.border-t-2 {
-  border-top-width: 2px;
-}
-
 .border-b-2 {
   border-bottom-width: 2px;
 }
 
-.border-r-0 {
-  border-right-width: 0px;
-}
-
-.border-t-0 {
-  border-top-width: 0px;
+.border-t {
+  border-top-width: 1px;
 }
 
 .border-slate-900\/10 {
@@ -1483,10 +1454,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 2px;
 }
 
-.dark .dark\:border-0 {
-  border-width: 0px;
-}
-
 .dark .dark\:border-slate-50\/\[0\.06\] {
   border-color: rgb(248 250 252 / 0.06);
 }
@@ -1760,6 +1727,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:h-36 {
     height: 9rem;
   }
@@ -1774,14 +1745,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:rounded-bl-lg {
     border-bottom-left-radius: 0.5rem;
-  }
-
-  .md\:border-l-2 {
-    border-left-width: 2px;
-  }
-
-  .md\:border-t-0 {
-    border-top-width: 0px;
   }
 
   .md\:px-8 {
@@ -1862,29 +1825,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     border-width: 0px;
   }
 
-  .lg\:border-y-2 {
-    border-top-width: 2px;
-    border-bottom-width: 2px;
-  }
-
   .lg\:border-b {
     border-bottom-width: 1px;
   }
 
   .lg\:border-l-0 {
     border-left-width: 0px;
-  }
-
-  .lg\:border-r-2 {
-    border-right-width: 2px;
-  }
-
-  .lg\:border-b-2 {
-    border-bottom-width: 2px;
-  }
-
-  .lg\:border-t-0 {
-    border-top-width: 0px;
   }
 
   .lg\:border-t-2 {
